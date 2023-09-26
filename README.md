@@ -33,7 +33,7 @@
 
 # 📖 Math Magicians <a name="about-project"></a>
 
-**Math Magicians** , your ultimate destination for all things cinema. Explore the latest movie reviews, trailers, news, and behind-the-scenes insights.
+**Math Magicians** ,is a web app designed to perform mathematical calculations. It typically includes functions for addition, subtraction, multiplication, and division, allowing users to input numbers and symbols through a user-friendly interface. The app displays the results of calculations in real-time, making it easy for users to quickly solve math problems, calculate expenses, or perform other numerical tasks.
 .
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -136,7 +136,7 @@ You can deploy this project using [GitHub Pages](https://pages.github.com/)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/FilbertKimasa/math-magicians.git/issues).
+Feel free to check the [issues page](https://github.com/FilbertKimasa/math-magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
