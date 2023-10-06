@@ -1,8 +1,17 @@
-.qote {
+.quote {
   font-weight: 400;
   font-size: 30px;
 }
 
-.qote-content {
+.quote-content {
   font-style: italic;
+}
+
+.section-quote {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  padding: 0 100px 15px 100px;
 }
