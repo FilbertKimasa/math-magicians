@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Quote.css';
+import '../styles/Quote.css';
 
 function Quotes() {
   const [quote, setQuote] = useState('');
@@ -23,14 +23,14 @@ function Quotes() {
   }, []);
 
   return (
-    <div className="quote">
-      <h2 className="qote">Quote</h2>
-      <p className="qote-content">
+    <section className="section-quote">
+      <h2 className="quote">Quote</h2>
+      <p className="quote-content">
         {loading && 'Quote loading...'}
         {error && `Error: ${error}`}
         {quote && quote}
       </p>
-    </div>
+    </section>
   );
 }
 
