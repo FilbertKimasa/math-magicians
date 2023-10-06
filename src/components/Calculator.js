@@ -15,12 +15,15 @@ const Calculator = () => {
   };
 
   return (
-    <div className="main-container">
-      <div className="display">
-        {display.total || display.operation || display.next || 0}
+    <section className="section-calculator">
+      <p>Let&apos;s do some Math</p>
+      <div className="main-container">
+        <div className="display">
+          {display.total || display.operation || display.next || 0}
+        </div>
+        <Buttons btnClick={btnClick} />
       </div>
-      <Buttons btnClick={btnClick} />
-    </div>
+    </section>
   );
 };
 
